@@ -1,1 +1,55 @@
+# Yaqeen Mobile UX/UI Revamp (React Native + TypeScript)
 
+This repository contains a production-ready revamp starter for the Yaqeen educational application focused on:
+
+- Arabic-first RTL mobile UX
+- Reusable atomic design system
+- 26-screen flow coverage
+- Enrollment conversion improvements
+- Accessibility baseline (WCAG 2.1 AA aligned patterns)
+
+## Tech Stack
+
+- Framework: React Native (TypeScript)
+- State Management: Zustand
+- Design Architecture: Atoms -> Molecules -> Organisms -> Templates -> Screens
+
+## Directory Structure
+
+```text
+/components
+  /atoms
+  /molecules
+  /organisms
+  /templates
+/screens
+/styles
+  /theme
+  /rtl
+/utils
+  /i18n
+  /navigation
+/store
+/docs
+```
+
+## Implemented Revamp Scope
+
+- Design tokens: colors, typography, spacing, shadows
+- Core reusable components requested in prompt
+- 26 screen definitions and Arabic content mapping
+- Empty states with actionable CTAs
+- Itemized payment summary (subtotal + VAT + total)
+- RTL initialization and right-aligned content defaults
+
+## Scripts
+
+- `npm run start`
+- `npm run android`
+- `npm run ios`
+- `npm run typecheck`
+
+## Notes
+
+- This starter focuses on the revamp architecture and screen/component coverage.
+- Integrations such as analytics providers and payment gateway SDKs are intentionally abstracted and should be connected in implementation phase.
