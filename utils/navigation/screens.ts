@@ -1,0 +1,30 @@
+export const screenKeys = [
+  "home",
+  "stageSelector",
+  "sortOptions",
+  "searchFilters",
+  "courseDetailsGuest",
+  "login",
+  "shareCourse",
+  "subscribeStepOne",
+  "subscribeStepTwo",
+  "rateCourseTeacher",
+  "searchResults",
+  "searchEmpty",
+  "favorites",
+  "courseDetailsSubscriber",
+  "myLessons",
+  "discussionForums",
+  "postComments",
+  "unitLessons",
+  "lessonDetails",
+  "extendedCourseInfo",
+  "messages",
+  "moreMenu",
+  "myOrders",
+  "support",
+  "aboutUs",
+  "logout"
+] as const;
+
+export type ScreenKey = (typeof screenKeys)[number];
