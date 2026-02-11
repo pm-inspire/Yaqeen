@@ -8,6 +8,7 @@ import {
   Text,
   View
 } from "react-native";
+import { StatusBar } from "expo-status-bar";
 import { screenByKey, screenDefinitions } from "./screens";
 import { theme } from "./styles/theme";
 import { ScreenKey } from "./utils/navigation/screens";
@@ -30,6 +31,7 @@ const App = (): React.JSX.Element => {
 
   return (
     <SafeAreaView style={styles.container}>
+      <StatusBar style="dark" />
       <View style={styles.header}>
         <Text style={styles.title}>{t("appName")} - UX/UI Revamp</Text>
         <Text style={styles.subtitle}>{t("courseCycle")}</Text>

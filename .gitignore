@@ -2,3 +2,11 @@ node_modules/
 dist/
 build/
 .DS_Store
+.expo/
+.expo-shared/
+web-build/
+android/
+ios/
+npm-debug.*
+yarn-debug.*
+yarn-error.*

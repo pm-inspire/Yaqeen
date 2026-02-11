@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Yaqeen Revamp",
+    "slug": "yaqeen-revamp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yaqeen.revamp"
+    },
+    "android": {
+      "package": "com.yaqeen.revamp"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
